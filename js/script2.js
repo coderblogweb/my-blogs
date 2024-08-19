@@ -22,3 +22,13 @@ search.addEventListener("keyup", () =>{
         image.style.display = "block";
     })
 })
+
+
+
+/**
+ * Get Year
+ */
+
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("year").innerHTML = year;
